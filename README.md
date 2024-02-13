@@ -16,11 +16,12 @@ username is your GitHub username
 2. Clone the repository
 3. Add your files
 4. Commit and publish
+
+(Optional if visiting your website after step 4 did not work)
 5. Go to the Settings tab on your newly created GitHub repository
 6. Click pages
-6.1 Under "Build and deployment", under "Source", select Deploy from a branch.
-
-6.2 Under "Build and deployment", under "Branch", use the branch dropdown menu and select a publishing source (the branch you want to use, usually main).
+7. Under "Build and deployment", under "Source", select Deploy from a branch.
+8. Under "Build and deployment", under "Branch", use the branch dropdown menu and select a publishing source (the branch you want to use, usually main).
 
 ### What are your key takeaways from this exercise?
-It's hard to create a website, even if it is a simple static one. There's a lot of underlying objects that users don't notice but are crucial to improve the user experience.
+It's hard to create a website, even if it is a simple static one. There's a lot of underlying objects and arrangements that users don't notice but are crucial to improve the user experience.
