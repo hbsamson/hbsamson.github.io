@@ -66,7 +66,14 @@ function storePassword(inputName, pass1, pass2) {
 	}
 }
 
+var nameInputForm = document.getElementById('name').value
+var passwordInputForm = document.getElementById('password').value
+var password2InputForm = document.getElementById('confirm-password').value
+
 console.log(validatePassword("helloThere10", "helloThere10"));
 console.log(reversePassword("hello"));
 console.log(storePassword("Hannah", "passWord1", "passWord1"));
 console.log(storePassword("Hannah", "passWord1", "passWord2"));
+
+console.log(validatePassword(passwordInputForm, helloThere10));
+console.log(storePassword(nameInputForm, passwordInputForm, password2InputForm));

@@ -25,12 +25,18 @@
 	<form>
 		<label for="name">Name:</label><br>
 		<input type="text" id="name" name="name"><br>
+
 		<label for="password">Password:</label><br>
-		<input type="text" id="password" name="password">
+		<input type="text" id="password" name="password"><br>
+
 		<label for="password">Confirm Password:</label><br>
-		<input type="text" id="password" name="password">
-	  </form>
-    
+		<input type="text" id="confirm-password" name="password"><br>
+
+		<button onclick = "window.alert(validatePassword(document.getElementById('password').value, document.getElementById('confirm-password').value))">Validate Password</button>
+		<!-- will show true if password and confirm password is correct, else shows false -->
+		<button onclick = "window.alert(JSON.stringify(storePassword(document.getElementById('name').value, document.getElementById('password').value, document.getElementById('confirm-password').value)))">Store Password</button>
+		<!-- will show the object user with name and newpassword (newpassword will be the reversed version if password and confirm password is the same, else it will use the first inputted password) -->
+	</form>
 
   </div> 
   <!-- end of main content div -->
